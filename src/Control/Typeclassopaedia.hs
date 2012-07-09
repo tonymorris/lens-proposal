@@ -6,6 +6,8 @@ import Control.Typeclassopaedia.Applicative as X
 import Control.Typeclassopaedia.Bind as X
 import Control.Typeclassopaedia.Category as X
 import Control.Typeclassopaedia.Comonad as X
+import Control.Typeclassopaedia.ComonadHoist as X
+import Control.Typeclassopaedia.ComonadTrans as X
 import Control.Typeclassopaedia.Cozip as X
 import Control.Typeclassopaedia.Extend as X
 import Control.Typeclassopaedia.Foldable as X

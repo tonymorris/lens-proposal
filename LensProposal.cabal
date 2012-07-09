@@ -38,6 +38,8 @@ Library
                     , Control.Typeclassopaedia.Bind
                     , Control.Typeclassopaedia.Category
                     , Control.Typeclassopaedia.Comonad
+                    , Control.Typeclassopaedia.ComonadHoist
+                    , Control.Typeclassopaedia.ComonadTrans
                     , Control.Typeclassopaedia.Cozip
                     , Control.Typeclassopaedia.Extend
                     , Control.Typeclassopaedia.Functor
