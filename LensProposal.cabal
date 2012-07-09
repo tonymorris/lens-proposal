@@ -59,6 +59,7 @@ Library
                     , Control.Zip
                     , Data
                     , Data.Identity
+                    , Data.Iso
                     , Data.Lens
                     , Data.LLens
                     , Data.State
