@@ -1,6 +1,5 @@
 module Control.Typeclassopaedia.Apply where
 
-import Prelude()
 import Control.Typeclassopaedia.Functor
 
 class Functor f => Apply f where

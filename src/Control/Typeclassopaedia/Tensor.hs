@@ -1,6 +1,5 @@
 module Control.Typeclassopaedia.Tensor where
 
-import Prelude()
 import Control.Typeclassopaedia.Semigroupoid
 
 class Semigroupoid c => Tensor c where

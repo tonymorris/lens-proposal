@@ -1,7 +1,5 @@
 module Control.Typeclassopaedia.Semigroupoid where
 
-import Prelude()
-
 class Semigroupoid c where
   (.) ::
     c y z

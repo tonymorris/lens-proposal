@@ -8,13 +8,13 @@ Copyright:          Tony Morris
 Synopsis:           A proposal for lenses in a haskell-like language
 Category:           Development
 Description:        A proposal for lenses in a haskell-like language
-Homepage:           https://github.com/tonymorris/lens-and-friends
+Homepage:           https://github.com/tonymorris/lens-proposal
 Cabal-Version:      >= 1.6
 Build-Type:         Simple
 
 Source-Repository   head
   Type:             git
-  Location:         git@github.com:tonymorris/lens-and-friends.git
+  Location:         git@github.com:tonymorris/lens-proposal.git
 
 Flag                small_base
   Description:      Choose the new, split-up base package.
@@ -25,10 +25,26 @@ Library
 
   GHC-Options:
                     -Wall
+                    -XNoImplicitPrelude
 
   Hs-Source-Dirs:
                     src
 
   Exposed-Modules:
-                    M
+                      Control.Typeclassopaedia
+                    , Control.Typeclassopaedia.Applicative
+                    , Control.Typeclassopaedia.Apply
+                    , Control.Typeclassopaedia.Bind
+                    , Control.Typeclassopaedia.Category
+                    , Control.Typeclassopaedia.Comonad
+                    , Control.Typeclassopaedia.Cozip
+                    , Control.Typeclassopaedia.Extend
+                    , Control.Typeclassopaedia.Functor
+                    , Control.Typeclassopaedia.Monad
+                    , Control.Typeclassopaedia.Monoid
+                    , Control.Typeclassopaedia.Semigroup
+                    , Control.Typeclassopaedia.Semigroupoid
+                    , Control.Typeclassopaedia.Tensor
+                    , Control.Typeclassopaedia.Unzip
+                    , Control.Typeclassopaedia.Zip
 

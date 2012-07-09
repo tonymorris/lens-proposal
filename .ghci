@@ -1,6 +1,5 @@
 :set -isrc
 :set -XNoImplicitPrelude
-:l src/Control/Typeclassopaedia.hs
 :set prompt ">> "
 :set -Wall
 
