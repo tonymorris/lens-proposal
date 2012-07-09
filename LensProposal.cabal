@@ -59,6 +59,7 @@ Library
                     , Data
                     , Data.Identity
                     , Data.Lens
+                    , Data.State
                     , Data.Store
                     , Proposal
 
