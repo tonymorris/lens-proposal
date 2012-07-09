@@ -1,8 +1,8 @@
-module Control.Typeclassopaedia.ComonadHoist where
+module Control.ComonadHoist where
 
 import Prelude()
-import Control.Typeclassopaedia.Comonad
-import Control.Typeclassopaedia.ComonadTrans
+import Control.Comonad
+import Control.ComonadTrans
 
 class ComonadTrans f => ComonadHoist f where
   cohoist ::

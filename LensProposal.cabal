@@ -34,28 +34,28 @@ Library
                     src
 
   Exposed-Modules:
-                      Control.Typeclassopaedia
-                    , Control.Typeclassopaedia.Applicative
-                    , Control.Typeclassopaedia.Apply
-                    , Control.Typeclassopaedia.Bind
-                    , Control.Typeclassopaedia.Category
-                    , Control.Typeclassopaedia.Comonad
-                    , Control.Typeclassopaedia.ComonadHoist
-                    , Control.Typeclassopaedia.ComonadTrans
-                    , Control.Typeclassopaedia.Cozip
-                    , Control.Typeclassopaedia.Extend
-                    , Control.Typeclassopaedia.Functor
-                    , Control.Typeclassopaedia.Monad
-                    , Control.Typeclassopaedia.MonadHoist
-                    , Control.Typeclassopaedia.MonadTrans
-                    , Control.Typeclassopaedia.Monoid
-                    , Control.Typeclassopaedia.Semigroup
-                    , Control.Typeclassopaedia.Semigroupoid
-                    , Control.Typeclassopaedia.Tensor
-                    , Control.Typeclassopaedia.Traversable
-                    , Control.Typeclassopaedia.Traversable1
-                    , Control.Typeclassopaedia.Unzip
-                    , Control.Typeclassopaedia.Zip
+                      Control
+                    , Control.Applicative
+                    , Control.Apply
+                    , Control.Bind
+                    , Control.Category
+                    , Control.Comonad
+                    , Control.ComonadHoist
+                    , Control.ComonadTrans
+                    , Control.Cozip
+                    , Control.Extend
+                    , Control.Functor
+                    , Control.Monad
+                    , Control.MonadHoist
+                    , Control.MonadTrans
+                    , Control.Monoid
+                    , Control.Semigroup
+                    , Control.Semigroupoid
+                    , Control.Tensor
+                    , Control.Traversable
+                    , Control.Traversable1
+                    , Control.Unzip
+                    , Control.Zip
                     , Data
                     , Data.Identity
                     , Data.Lens

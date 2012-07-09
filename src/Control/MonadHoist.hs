@@ -1,8 +1,8 @@
-module Control.Typeclassopaedia.MonadHoist where
+module Control.MonadHoist where
 
 import Prelude()
-import Control.Typeclassopaedia.Monad
-import Control.Typeclassopaedia.MonadTrans
+import Control.Monad
+import Control.MonadTrans
 
 class MonadTrans f => MonadHoist f where
   hoist ::

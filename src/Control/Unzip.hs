@@ -1,4 +1,4 @@
-module Control.Typeclassopaedia.Unzip where
+module Control.Unzip where
 
 import Prelude()
 

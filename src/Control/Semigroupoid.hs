@@ -1,4 +1,4 @@
-module Control.Typeclassopaedia.Semigroupoid where
+module Control.Semigroupoid where
 
 class Semigroupoid c where
   (.) ::

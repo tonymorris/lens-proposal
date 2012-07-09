@@ -1,7 +1,7 @@
-module Control.Typeclassopaedia.MonadTrans where
+module Control.MonadTrans where
 
 import Prelude()
-import Control.Typeclassopaedia.Monad
+import Control.Monad
 
 class MonadTrans f where
   lift ::

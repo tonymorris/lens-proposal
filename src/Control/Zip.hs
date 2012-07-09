@@ -1,4 +1,4 @@
-module Control.Typeclassopaedia.Zip where
+module Control.Zip where
 
 import Prelude()
 

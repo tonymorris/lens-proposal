@@ -1,7 +1,7 @@
-module Control.Typeclassopaedia.Foldable where
+module Control.Foldable where
 
 import Prelude()
-import Control.Typeclassopaedia.Monoid
+import Control.Monoid
 
 class Foldable f where
   foldMap ::

@@ -1,4 +1,4 @@
-module Control.Typeclassopaedia.Cozip where
+module Control.Cozip where
 
 import Prelude(Either)
 

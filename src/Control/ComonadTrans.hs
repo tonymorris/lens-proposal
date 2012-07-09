@@ -1,7 +1,7 @@
-module Control.Typeclassopaedia.ComonadTrans where
+module Control.ComonadTrans where
 
 import Prelude()
-import Control.Typeclassopaedia.Comonad
+import Control.Comonad
 
 class ComonadTrans f where
   lower ::

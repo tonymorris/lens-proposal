@@ -1,4 +1,4 @@
-module Control.Typeclassopaedia.Semigroup where
+module Control.Semigroup where
 
 class Semigroup s where
   (<>) ::

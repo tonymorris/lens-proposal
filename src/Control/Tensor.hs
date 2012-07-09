@@ -1,6 +1,6 @@
-module Control.Typeclassopaedia.Tensor where
+module Control.Tensor where
 
-import Control.Typeclassopaedia.Semigroupoid
+import Control.Semigroupoid
 
 class Semigroupoid c => Tensor c where
   (***) ::

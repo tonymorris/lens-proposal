@@ -1,4 +1,4 @@
-module Control.Typeclassopaedia.Functor where
+module Control.Functor where
 
 class Functor f where
   (<$>) ::
