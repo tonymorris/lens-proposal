@@ -2,8 +2,8 @@ module Data.Lens where
 
 import Data.Store
 
-newtype Lens x a b c =
-  Lens (x -> Store a b c)
+newtype LensP x a b c =
+  LensP (x -> StoreP a b c)
 
-type LensU x y =
-  Lens x y x y
+type Lens x y =
+  LensP x y x y

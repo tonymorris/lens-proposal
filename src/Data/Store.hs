@@ -3,21 +3,21 @@ module Data.Store where
 import Prelude()
 import Data.Identity
 
-data StoreT f a b c =
-  StoreT (f (b -> c)) a
+data StoreTP f a b c =
+  StoreTP (f (b -> c)) a
 
-type StoreTU f a b =
-  StoreT f a a b
+type StoreT f a b =
+  StoreTP f a a b
 
-type Store a b c =
-  StoreT Identity a b c
+type StoreP a b c =
+  StoreTP Identity a b c
 
-type StoreU a b =
-  Store a a b
+type Store a b =
+  StoreP a a b
 
 store ::
   (b -> c)
   -> a
-  -> Store a b c
+  -> StoreP a b c
 store f =
-  StoreT (Identity f)
+  StoreTP (Identity f)

@@ -61,7 +61,8 @@ Library
                     , Data.Identity
                     , Data.Iso
                     , Data.Lens
-                    , Data.LLens
+                    , Data.LabelledLens
+                    , Data.LabelledIso
                     , Data.State
                     , Data.Store
 
