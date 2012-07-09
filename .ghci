@@ -1,5 +1,6 @@
 :set -isrc
 :set -XNoImplicitPrelude
+:set -XRankNTypes
 :set prompt ">> "
 :set -Wall
 

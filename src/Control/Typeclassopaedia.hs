@@ -12,6 +12,8 @@ import Control.Typeclassopaedia.Foldable as X
 import Control.Typeclassopaedia.Foldable1 as X
 import Control.Typeclassopaedia.Functor as X
 import Control.Typeclassopaedia.Monad as X
+import Control.Typeclassopaedia.MonadHoist as X
+import Control.Typeclassopaedia.MonadTrans as X
 import Control.Typeclassopaedia.Monoid as X
 import Control.Typeclassopaedia.Semigroup as X
 import Control.Typeclassopaedia.Semigroupoid as X

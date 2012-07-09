@@ -26,6 +26,7 @@ Library
   GHC-Options:
                     -Wall
                     -XNoImplicitPrelude
+                    -XRankNTypes
 
   Hs-Source-Dirs:
                     src
@@ -41,6 +42,8 @@ Library
                     , Control.Typeclassopaedia.Extend
                     , Control.Typeclassopaedia.Functor
                     , Control.Typeclassopaedia.Monad
+                    , Control.Typeclassopaedia.MonadHoist
+                    , Control.Typeclassopaedia.MonadTrans
                     , Control.Typeclassopaedia.Monoid
                     , Control.Typeclassopaedia.Semigroup
                     , Control.Typeclassopaedia.Semigroupoid
