@@ -1,20 +1,20 @@
-Name:               Haskell-Package
+Name:               LensProposal
 Version:            0.0.1
 License:            BSD3
 License-File:       LICENSE
 Author:             Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>
 Maintainer:         Tony Morris
 Copyright:          Tony Morris
-Synopsis:           A skeleton for creating haskell packages
+Synopsis:           A proposal for lenses in a haskell-like language
 Category:           Development
-Description:        A skeleton for creating haskell packages
-Homepage:           https://github.com/tonymorris/haskell-package
+Description:        A proposal for lenses in a haskell-like language
+Homepage:           https://github.com/tonymorris/lens-and-friends
 Cabal-Version:      >= 1.6
 Build-Type:         Simple
 
 Source-Repository   head
   Type:             git
-  Location:         git@github.com:tonymorris/haskell-package.git
+  Location:         git@github.com:tonymorris/lens-and-friends.git
 
 Flag                small_base
   Description:      Choose the new, split-up base package.
