@@ -49,4 +49,8 @@ Library
                     , Control.Typeclassopaedia.Traversable1
                     , Control.Typeclassopaedia.Unzip
                     , Control.Typeclassopaedia.Zip
+                    , Data
+                    , Data.Identity
+                    , Data.Store
+                    , Proposal
 
