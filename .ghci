@@ -1,9 +1,6 @@
 :set -isrc
-:l src/M.hs
-:m + Test.QuickCheck
+:set -XNoImplicitPrelude
+:l src/Control/Typeclassopaedia.hs
 :set prompt ">> "
 :set -Wall
-:def hlint const . return $ ":! hlint \"src\""
-:def hoogle \s -> return $ ":! hoogle --count=15 \"" ++ s ++ "\""
-:def pl \s -> return $ ":! pointfree \"" ++ s ++ "\""
 
