@@ -1,9 +1,9 @@
 module Data.State where
 
-import Data.Identity
+import Data.Id
 
 newtype StateT s f a =
   StateT (s -> f (a, s))
 
 type State s a =
-  StateT s Identity a
+  StateT s Id a

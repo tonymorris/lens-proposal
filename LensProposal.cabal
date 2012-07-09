@@ -58,7 +58,7 @@ Library
                     , Control.Unzip
                     , Control.Zip
                     , Data
-                    , Data.Identity
+                    , Data.Id
                     , Data.Iso
                     , Data.Lens
                     , Data.LabelledLens
