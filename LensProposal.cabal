@@ -45,6 +45,8 @@ Library
                     , Control.Typeclassopaedia.Semigroup
                     , Control.Typeclassopaedia.Semigroupoid
                     , Control.Typeclassopaedia.Tensor
+                    , Control.Typeclassopaedia.Traversable
+                    , Control.Typeclassopaedia.Traversable1
                     , Control.Typeclassopaedia.Unzip
                     , Control.Typeclassopaedia.Zip
 
