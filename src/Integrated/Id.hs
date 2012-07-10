@@ -8,4 +8,4 @@ import Data.Text
 runId ::
   LabelledIso (Id a) a
 runId =
-  LabelledIsoP (pack "Identity") (pack "runId") (IsoP Id (\(Id x) -> x))
+  LabelledIsoP (pack "Id") (pack "runId") (IsoP (\(Id x) -> x) Id)

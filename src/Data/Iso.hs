@@ -3,7 +3,7 @@ module Data.Iso where
 import Prelude()
 
 data IsoP x a b c =
-  IsoP (c -> b) (x -> a)
+  IsoP (x -> a) (b -> c)
 
 type Iso x y =
-  IsoP x y x y
+  IsoP x y y x

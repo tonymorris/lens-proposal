@@ -9,3 +9,5 @@ import Data.LabelledLens as X
 import Data.LabelledIso as X
 import Data.State as X
 import Data.Store as X
+import Data.ToIso as X
+import Data.ToLens as X

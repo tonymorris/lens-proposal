@@ -60,9 +60,14 @@ Library
                     , Data
                     , Data.Id
                     , Data.Iso
-                    , Data.Lens
+                    , Data.Kleisli
                     , Data.LabelledLens
                     , Data.LabelledIso
+                    , Data.Lens
                     , Data.State
                     , Data.Store
+                    , Data.ToIso
+                    , Data.ToLens
+                    , Integrated
+                    , Integrated.Id
 
